@@ -1,16 +1,18 @@
 # vending_machine
 
-A new Flutter project.
+Here's the demo of the vending machine, I made this sample to cover all of the simple case, however because of the time limit there are some part I didn't wrap strictly on null safety, the UI rebuild is not really optimized and there is no widget test only a function that returning change money.
 
-## Getting Started
+Features Check list:
+- Building logic, project structure and interfaces:
+- Building local database, local queries:
+- Deposit feature:
+Note: When user deposit and purchase the money will be go into total balance of the machine.
+- Return change money:
+Note: Whenever use purchase it will record transaction to calculate sales and remaining coins of the machine.
+- Statistic dashboard to present sales and remaining coins:
+Note: Showing remaining coins and sales.
+- Adding more coins or products to the machine:
+- Writing unit test: calculate change money.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Video demo:
+https://drive.google.com/file/d/143VOeQkAhd0Off3yAd2GaJTIzbfsv4gx/view?usp=sharing
